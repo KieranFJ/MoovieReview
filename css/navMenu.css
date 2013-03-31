@@ -1,0 +1,64 @@
+/* 
+    Document   : navMenu
+    Created on : 28-Mar-2011, 12:37:43
+    Author     : Kieran
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+#jsddm
+{	margin: 0px;
+	padding: 0px;}
+
+	#jsddm li
+	{	float: left;
+		list-style: none;
+		font: bold 13px Tahoma, Arial;
+                display: block;
+                background-position: right;
+                background-repeat: no-repeat;
+                background-image: url("Images/navArrow1.gif");
+		/*background: #CFC949*/;
+                text-align: center;
+		width: 125px;
+		color: #000000;
+		white-space: nowrap}
+
+	#jsddm li a
+	{	display: block;
+		background: #E5DE50;
+		padding: 5px 12px;
+		text-decoration: none;		
+		width: 70px;
+                text-align:left;
+		color: #CFC949 /*#EAFFED*/;
+		white-space: nowrap}
+
+	#jsddm li a:hover
+	{	background: #24313C; }
+
+		#jsddm li ul
+		{	margin: 0;
+                        padding: 0;
+			position: absolute;
+			visibility: hidden;
+                        border: solid 1px #000;
+			}
+
+			#jsddm li ul li
+			{	float: none;
+				display: inline}
+
+			#jsddm li ul li a
+			{	width: auto;
+				background: #CFC949;
+				color: #24313C}
+
+			#jsddm li ul li a:hover
+			{	background: #DDD656;
+                        text-decoration: underline;}

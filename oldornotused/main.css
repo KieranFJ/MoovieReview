@@ -1,0 +1,117 @@
+/*
+      Created by Keith Donegan of Code-Sucks.com
+	  
+	  E-Mail: Keithdonegan@gmail.com
+	  
+	  You can do whatever you want with these layouts,
+	  but it would be greatly appreciated if you gave a link
+	  back to http://www.code-sucks.com
+	  
+*/
+
+* { padding: 0; margin: 0; }
+
+body {
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+}
+#wrapper { 
+ margin: 0 auto;
+ width: 950px;
+ min-height: 500px;
+}
+#header {
+ color: #333;
+ width: 950px;
+ float: left;
+ padding: 10px;
+ border: 1px solid #ccc;
+ height: 100px;
+ margin: 10px 0px 5px 0px;
+ background: #E7DBD5;
+}
+#navigation {
+ float: left;
+ width: 950px;
+ color: #333;
+ padding: 10px;
+ border: 1px solid #ccc;
+ margin: 0px 0px 5px 0px;
+ background: #BD9C8C;
+}
+#contentWrapper {
+    float:left;
+    width:970px;
+}
+#leftcolumn { 
+ color: #333;
+ border: 1px solid #ccc;
+ background: #E7DBD5;
+ margin: 0px 5px 0px 0px;
+ padding: 10px;
+ min-height: 500px;
+ height:100%;
+ width: 175px;
+ float: left;
+}
+#rightcolumn {
+ float: left;
+ color: #333;
+ background: #F2F2E6; 
+ padding: 10px;
+ min-height: 350px;
+ width: 725px;
+}
+#movieinfowrapper {
+    float:left;
+    width: 746px;
+    margin-bottom: 10px;
+}
+#movieinfooutput {
+    border: 1px solid #ccc;
+    float: left;
+    width: 550px;
+    padding: 5px;
+
+}
+#movieinfoposter {
+    float: right;
+    padding: 0px;
+    width: 184px;
+    
+}
+#revWrapper {
+    float:left;
+    width: 746px;
+}
+#revIndivWrapper {
+    float:left;
+    width: 746px;
+    margin: 10px 0px 10px 0px;
+    min-height: 100px;
+    border-bottom: 1px dotted #CFCFCF
+}
+#revContent {
+    float:right;
+    padding:10px;
+    width:666px;;
+    margin: 10px 0px 0px 0px;
+
+}
+#usrPic {
+    float:left;
+    height:100%;
+    width:50px;
+}
+#revForm {
+    float:left;
+}
+#footer { 
+ width: 950px;
+ clear: both;
+ color: #333;
+ border: 1px solid #ccc;
+ background: #BD9C8C;
+ margin: 0px 0px 10px 0px;
+ padding: 10px;
+}
